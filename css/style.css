@@ -219,3 +219,7 @@ span {
     display: block;
   }
 }
+.project-entry > img
+{
+    height: 100px;
+}

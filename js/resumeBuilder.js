@@ -13,7 +13,7 @@ var bio = {
         location: "Riyadh"
     },
     welcomeMessage: "This Hamad, Welcome to my Resume",
-    skills: ["Programing", "Design Thinking", "gaming"],
+    skills: ["Programing    ", "Design Thinking", "gaming"],
     biopic: "http://brandtwist.com/wp-content/uploads/2013/05/Personal-Brand.jpg",
     display: function(){
         var formatedRole = HTMLheaderRole.replace("%data%", bio.role);
@@ -128,7 +128,7 @@ var projects = {
                 var formatedProjectImage = HTMLprojectImage.replace("%data%", projectImage);
                 $(".project-entry:last").append(formatedProjectImage);
 
-            })
+            });
         });
     }
 };

@@ -91,9 +91,9 @@ var work = {
             $(".work-entry:last").append(formatedWorkLocation);
             var formatedWorkDescription = HTMLworkDescription.replace("%data%", job.description);
             $(".work-entry:last").append(formatedWorkDescription);
-        })
+        });
     }
-}
+};
 
 
 work.display();
@@ -129,9 +129,9 @@ var projects = {
                 $(".project-entry:last").append(formatedProjectImage);
 
             })
-        })
+        });
     }
-}
+};
 
 projects.display();
 
@@ -175,7 +175,7 @@ var education = {
             school.majors.forEach(function(major){
                 var formatedMajor = HTMLschoolMajor.replace("%data%", major);
             $(".education-entry:last").append(formatedMajor);
-            })
+            });
         });
         
         education.onlineCourses.forEach(function(onlineCourse){
@@ -192,9 +192,9 @@ var education = {
             $(".education-entry:last").append(formatedOnlineDates);            
             var formatedOnlineURL = HTMLonlineURL.replace("%data%", onlineCourse.url);
             $(".education-entry:last").append(formatedOnlineURL);
-        })
+        });
     }
-}
+};
 education.display();
 
 /* map */

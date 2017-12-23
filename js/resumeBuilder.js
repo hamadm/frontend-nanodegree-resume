@@ -2,6 +2,41 @@
 This is empty on purpose! Your code to build the resume will go here.
  */
 /* Bio Code */
+console.log("test")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var bio = {
     name : "Hamad Almuqbel",
     role : "Software Engineer",
